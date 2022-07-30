@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    background-color: black;
+    color: aqua;
+    padding: 10px;
+    text-align: center;
+ 
+}
