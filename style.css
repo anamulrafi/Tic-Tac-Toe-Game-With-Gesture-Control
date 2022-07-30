@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -10,6 +11,51 @@ body{
  
 }
 .gameContainer{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+}
+ 
+.box{
+    border: 2px solid black;
+    font-size: 100px;
+    cursor: pointer;
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+}
+.box:hover{
+    background-color: rgb(105, 159, 163);
+}
+.gameInfo{
+    padding: 0 34px ;
+    font-family: 'Bloo Bhaina 2', cursive;
+}
+.images img{
+    display: none;
+
+}
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+
