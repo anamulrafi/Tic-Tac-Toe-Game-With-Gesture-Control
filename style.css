@@ -42,7 +42,9 @@ body{
     font-family: 'Bloo Bhaina 2', cursive;
 }
 .images img{
-    display: none;
+    margin-top: 40px;
+    width: 0;
+    transition: width 1s ease-in-out;
 
 }
 
@@ -76,4 +78,18 @@ body{
     position: absolute;
     background-color: #911d91;
     transition: width 1s ease-in-out;
+}
+
+@media screen and (max-width: 950px)
+{
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 34px;
+    }
+    .container { 
+        grid-template-rows: repeat(3, 20vw);
+        grid-template-columns: repeat(3, 20vw);
+    }
 }
